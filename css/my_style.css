@@ -1,0 +1,382 @@
+body{
+    background-color: #fbf4fb
+}
+body > header{
+    background: linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
+    height: 650px;
+    overflow-y: hidden
+}
+body > header > div > nav{
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+body > header > div > nav .sigle img{
+    width: 250px;
+    height: 50px;
+}
+body > header > div > nav .nav_bar{
+    padding-top: 10px
+}
+body > header > div > nav .nav_bar .nav_bar_item{
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer
+}
+body > header > div > nav .nav_bar .nav_bar_item a{
+    color: rgba(255,255,255,.5);
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-bottom: transparent 2px solid;
+    text-decoration: none
+}
+body > header > div > nav .nav_bar .nav_bar_item input{
+    background-color: transparent;
+    color: white;
+    border: white 1px solid;
+    font-size: 13px
+}
+body > header > div > nav .nav_bar .nav_bar_item:nth-child(1) a{
+    color: white;
+    font-weight: bold;
+    border-bottom: rgba(255,255,255,.5) 2px solid;
+    text-decoration: none
+}
+body > header > div > nav .nav_bar .nav_bar_item a:hover{
+    color: white;
+    font-weight: bold;
+    border-bottom: rgba(255,255,255,.5) 2px solid;
+    text-decoration: none
+}
+.business_item_one{
+    text-align: center;
+    margin-top: 100px
+}
+.business_item_one .busines_label{
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    margin-bottom: 1.5rem;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.2;
+    color: white
+}
+.business_item_one .buisess_desc{
+    font-weight: 300;
+    color: #ffb8f6;
+    max-width: 800px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.5;
+    display: block;
+    margin: auto
+}
+.business_item_one .business_image{
+    display: block;
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    margin-top: 35px
+}
+.liste_view_services{
+    margin-top: 50px;
+    padding-bottom: 50px
+}
+.liste_view_services .item{
+    background: linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
+    padding-left: 3px;
+    width: 400px;
+    margin-bottom: 50px
+}
+.liste_view_services .item + .item{
+    margin-left: 15px
+}
+.liste_view_services .item > div{
+    background-color: white;
+    margin: 0px;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.08);
+}
+.liste_view_services .item .icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    padding: 2px;
+    background: linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
+}
+.liste_view_services .item .icon img{
+    width: 100%;
+    height: 100%
+}
+.liste_view_services .item .title{
+    font-size: 20px;
+    font-weight: 500;
+    color: #633991;
+    font-family: inherit;
+    line-height: 1.2;
+    font-weight: bold;
+}
+.liste_view_services .item p{
+    color: #959094;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: 8px
+}
+.liste_view_services header{
+    text-align: center;
+    color: #633991;
+    font-size: 33px;
+    font-weight: 500;
+    font-family: inherit;
+    line-height: 1.2;
+    margin-top: 100px;
+    margin-bottom: 35px
+}
+.liste_view_services footer button{
+    background-image: linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+    color: white;
+    font-size: 12px;
+}
+.business_tab_layout{
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 100px
+}
+.business_tab_layout > div > .description{
+    text-align: center;
+    margin-bottom: 15px
+}
+.business_tab_layout > div > .description em{
+    color: #998a9b;
+    font-size: 80%;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.5;
+}
+.business_tab_layout > div > .description strong{
+    color: #633991;
+    font-size: 33px;
+    font-weight: 500;
+    font-family: inherit;
+    line-height: 1.2;
+}
+.business_tab_layout .tab_nav_bar{
+    margin-top: 35px
+}
+.business_tab_layout .tab_nav_bar .nav_item{
+    background: #f5eff7;
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #b5a4c8;
+    border-right: white 2px solid;
+    cursor: pointer
+}
+.business_tab_layout .tab_nav_bar .nav_item:hover{
+    background-color: white;
+    color: #633991;
+    border-color: #ce75b4 #faf6fb #FFF;
+    border-width: 2px
+}
+.business_tab_layout .tab_nav_bar .nav_item:nth-child(1){
+    background-color: white;
+    color: #633991;
+    border-color: #ce75b4 #faf6fb #FFF;
+    border-width: 2px
+}
+.business_tab_layout .tab_item{
+    background-color: white;
+    padding-top: 50px;
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.04);
+}
+.business_tab_layout .tab_item .title{
+    font-weight: 300;
+    color: #633991;
+    letter-spacing: -1px;
+    font-family: inherit;
+    line-height: 1.2;
+}
+.business_tab_layout .tab_item .label{
+    line-height: 1.8;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #e38cb7;
+}
+.business_tab_layout .tab_item p{
+    line-height: 1.8;
+    color: #959094;
+}
+.business_tab_layout .tab_item .icon img{
+    width: 200px;
+    height: 200px;
+    margin: 25px
+}
+.business_app_desc .liste_services .item{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #f8e3f0; 
+}
+.business_app_desc .liste_services .item > div:nth-child(1){
+    width: 100px;
+    height: 100px;
+    background-color: #f5378e;
+    border-radius: 100%;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 30px
+}
+.business_app_desc .liste_services .item .title{
+    font-size: 28px;
+    font-weight: 300;
+    color: #633991;
+    font-family: inherit;
+    line-height: 1.2;
+}
+.business_app_desc .liste_services .item p{
+    color: #959094;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 12px
+}
+.busines_chekout{
+    background-color: white;
+    padding-top: 80px
+}
+.busines_chekout .item > div{
+    border: 1px solid #f1eef1;
+    background-color: #fff;
+    border-radius: .25rem;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-right: 25px;
+    min-height: 300px;
+    padding-left: 25px;
+    padding-right: 25px
+}
+.busines_chekout .item:nth-child(2) > div{
+    border-top-width: 3px;
+    border-color: #ce75b4 #faf6fb #FFF;
+    box-shadow: 0px 12px 59px 0px rgba(36, 7, 31, 0.11);
+}
+.busines_chekout .label{
+    text-align: center;
+    color: #e38cb7 !important;
+    font-size: 80%;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+}
+.busines_chekout .price{
+    text-align: center
+}
+.busines_chekout .price em{
+    font-size: 45px;
+    font-weight: 300;
+    color: #633991;
+    line-height: 1.5;
+}
+.busines_chekout .price span{
+    font-weight: 300;
+    color: #633991;
+}
+.busines_chekout .item ul{
+    list-style: none;
+    padding: 0px;
+    margin-top: 50px
+}
+.busines_chekout .item ul li{
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: #959094;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-bottom: 50px
+}
+.busines_chekout .item button{
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient( 122deg, #fd378e 0%, #e54595 100%);
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
+}
+.busines_chekout header{
+    text-align: center;
+    margin-bottom: 35px
+}
+.busines_chekout header span{
+    color: #998a9b;
+    font-size: 80%;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+}
+.busines_chekout header h3{
+    text-align: center;
+    color: #633991;
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+body > header .menu_icon{
+    display: none
+}
+@media(max-width: 900px){
+    body > header > div > nav .nav_bar{
+        width: 100%;
+        display: none
+    }
+    body > header > div > nav .nav_bar .nav_bar_item{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px
+    }
+    body > header > div > nav .sigle img{
+        width: 80px;
+        height: 40px
+    }
+    body > header .menu_icon{
+        display: inline-block
+    }
+    body > header .menu_icon img{
+        width: 45px;
+        height: 45px
+    }
+    .business_item_one .business_image{
+        width: 80%;
+    }
+    .liste_view_services .item{
+        width: 100%
+    }
+    .liste_view_services .item + .item{
+        margin-left: 0px
+    }
+    .business_tab_layout{
+        padding-left: 5px;
+        padding-right: 5px
+    }
+    .business_app_desc .images{
+        display: none
+    }
+}
